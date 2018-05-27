@@ -4,6 +4,7 @@ sudo pip install snownlp
 sudo install -U textblob
 python -m textblob.download_corpora
 1、TextBlob
+#如果换单引号效果就是整个为一句话，实践所得，不知道具体原因
 text = "I am happy today. I feel sad today."
 from textblob import TextBlob 
 blob = TextBlob(text)
